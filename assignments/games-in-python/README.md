@@ -1,34 +1,39 @@
-<!-- Updated assignment description for games-in-python -->
+# 🎮 Hangman Game Challenge
 
-# Games in Python
+## 🎯 Objective
 
-In this assignment, you'll explore the foundations of game programming
-using Python. You'll create a small text-based game where players make
-choices, and the program responds with outcomes based on those choices.
-This activity focuses on developing logic, managing state, and handling
-user input in a fun, interactive way.
+Build a text-based Hangman game in Python that randomly selects a secret word and challenges the player to guess it letter by letter before running out of attempts. You'll practice working with strings, loops, conditionals, functions, and user interaction.
 
-## 🎯 Learning Goals
+## 📝 Tasks
 
-1. Write and control the flow of a program using `if`/`else` and loops.
-2. Prompt for and process input from a player.
-3. Track information across multiple turns or events.
-4. Use functions to organize code and avoid repetition.
+### 🛠️ Basic Hangman Implementation
 
-## 🧩 Getting Started
+#### Description
+Write a Python program (`starter-code.py` is provided) that behaves like the classic Hangman game. The program should choose a word at random from a list, prompt the user for letter guesses, and display the current progress and remaining attempts.
 
-Open `starter-code.py` for a basic framework. It includes:
+#### Requirements
+Completed program should:
 
-- A main game loop
-- Placeholder functions for game logic
-- Comments with hints to guide you
+- Randomly select a word from a predefined list.
+- Display the word as a series of underscores representing unguessed letters.
+- Accept single-letter input from the user and reveal matching letters in the word.
+- Keep track of incorrect guesses and decrement remaining attempts.
+- End with a win message if the word is fully guessed or a lose message when attempts run out.
 
-Feel free to add new functions, classes, or additional features as you
-see fit.
+### 🛠️ Optional Enhancements
+
+#### Description
+Once the basic game works, extend it with additional features to make it more user-friendly or challenging.
+
+#### Requirements
+Additional functionality may include (pick any):
+
+- Prevent repeated guesses from counting against the player.
+- Allow the player to guess the entire word.
+- Display a simple ASCII drawing of the hangman with each wrong guess.
+- Load words from an external file instead of a hard‑coded list.
 
 ---
 
-> **Tip:** Make your game more engaging by adding scorekeeping,
-> multiple outcomes, or additional challenges. Have fun and be
-> creative!
-
+> 💡 **Tip:** Read through the starter code and comments to see where you can add logic. Keep your code modular by using functions for tasks like choosing a word, updating the display, and checking for a win.
+ 
